@@ -60,8 +60,10 @@ begin
 		textcolor(green);write('[',TimeToStr(Now),']');writeln(' Success... ');
 		sleep(3000); //in milliseconds
 		writeln('');
-		write('Nilai Luas = ', hasil:0:2);
+		writeln('Nilai Luas = ', hasil:0:2);
 		writeln('');
-		textcolor(yellow);writeln('Tekan Enter untuk Keluar');
-		readln;
+		begin
+		textcolor(yellow);writeln('Tekan Enter untuk Keluar');readln;
+		exit
+	end;
 end.
