@@ -1,6 +1,4 @@
-###################
-Code Pascal
-###################
+# Code Pascal
 
 ## Usage
   ```bash
@@ -20,8 +18,17 @@ Code Pascal
   file_name.exe
   ```
   
-*******
-Do you like this project?
-*******
-Jika ada error? Contact me. 
-email : ibnufachrizal63@gmail.com
+## Do you like this project?
+
+<p align="left">
+</a>
+<a href="https://www.buymeacoffee.com/ibnufachrizal">
+<img src="https://cdn.buymeacoffee.com/buttons/default-black.png" alt="Buy Me A Coffee" height="50px">
+</a>
+</p>
+
+## Need help?
+
+- Ask for help in the [Telegram](https://t.me/ibnufachrizal)
+
+<h4 align="center"><img src="https://raw.githubusercontent.com/ibnufachrizal/ibnufachrizal/master/PirateHack-AgADcgEAAugVJyI.gif" width="300px" height="300px">
