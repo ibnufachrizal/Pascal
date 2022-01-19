@@ -5,9 +5,8 @@
 program Kasir_Penginapan;
  uses crt;
  var
- no:integer;
+ no,lm_nginap:integer;
  total,cash,harga,kembalian:longint;
- lm_nginap:integer;
  nama,noroom,jns_penginapan:string;
  begin
 clrscr;
@@ -17,7 +16,7 @@ writeln(' Fasilitas Penginapan:');
 writeln(' 1. Full AC');
 writeln(' 2. Jaringan WIFI');
 writeln(' 3. Pelayanan Penginapan 24 jam');
-writeln(' ');
+writeln;
 textcolor(yellow);
 writeln('  ___________________________________________________________________');
 writeln(' | NO | Jenis Penginapan  | Harga Sewa |    Fasilitas Tambahan       |');
@@ -35,7 +34,6 @@ writeln(' |    |                   |            |  2. Single Bad              |'
 writeln(' |____|___________________|____________|_____________________________|');
 writeln;
 begin
-// clrscr;
 writeln;
 textcolor(15);
 write(' [+] Nama Pengunjung  = '); readln (nama);
@@ -68,7 +66,7 @@ gotoxy(4,8);
 writeln(no);
 if no= 1 then jns_penginapan:=' Executive Room';
 if no= 2 then jns_penginapan:=' Deluxe Room';
-if no= 3 then jns_penginapan:=' Standrad Room';
+if no= 3 then jns_penginapan:=' Standard Room';
 gotoxy(8,8);
 writeln(jns_penginapan);
 if no= 1 then harga:=1000000;
@@ -79,7 +77,7 @@ gotoxy(43,8);writeln(lm_nginap, ' hari');
 total:= harga*lm_nginap;
 gotoxy(56,8);
 writeln('Rp. ', total);
-writeln('');
+writeln;
 textcolor(green);writeln; write(' Cash      = Rp. ') ; readln (cash);
 kembalian:= cash-total;
 textcolor(red);writeln(' Kembalian = Rp. ', kembalian);
